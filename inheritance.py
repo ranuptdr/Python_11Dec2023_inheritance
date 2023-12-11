@@ -1,10 +1,10 @@
 class MyParent(): #Base class
     #1.1  Property
+    bloodGroup = '+Ove'
 
     #1.2  Constructor
 
     #1.3  Method
-    bloodGroup = '+Ove'
     pass
 
 class MyChild(MyParent): # derived class
@@ -17,7 +17,7 @@ class MyChild(MyParent): # derived class
         print(f"My Blood Group is {self.bloodGroup}")
     pass
 
-# Create Class 
+# Create Class Object
 # We always Create object of child class
 co = MyChild()
 co.getMyBloodGroup() # classObject.method
