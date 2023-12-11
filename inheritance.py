@@ -17,6 +17,7 @@ class MyChild(MyParent): # derived class
         print(f"My Blood Group is {self.bloodGroup}")
     pass
 
-# Create Class Object
+# Create Class 
+# We always Create object of child class
 co = MyChild()
 co.getMyBloodGroup() # classObject.method
